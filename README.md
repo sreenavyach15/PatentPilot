@@ -344,8 +344,6 @@ PatentPilot
 │   ├── report/
 │   └── page.tsx
 │
-├── components/
-│
 ├── core/
 │   ├── analysisPipeline.ts
 │   ├── patentAnalyzer.ts
