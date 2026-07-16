@@ -61,13 +61,13 @@ export async function searchPatents(query: string) {
   console.log(
     `${BASE_URL}/search/content?query=${encodeURIComponent(
       query
-    )}&page=1&itemsPerPage=10`
+    )}&page=1&itemsPerPage=20`
   );
 
   const response = await fetch(
     `${BASE_URL}/search/content?query=${encodeURIComponent(
       query
-    )}&page=1&itemsPerPage=10`,
+    )}&page=1&itemsPerPage=20`,
     {
       method: "POST",
     }
@@ -135,7 +135,7 @@ export async function searchPatents(query: string) {
       aiExplanation: "",
     });
 
-    if (patents.length === 3) {
+    if (patents.length === 5) {
       break;
     }
   }
