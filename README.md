@@ -485,6 +485,22 @@ Add the required API keys.
 
 ---
 
+## Database Setup
+
+1. Create a new Supabase project.
+
+2. Open the SQL Editor.
+
+3. Execute:
+
+schema.sql
+
+4. Copy the generated URL and anon key into:
+
+.env.local
+
+---
+
 # ▶ Running the Project
 
 Development
