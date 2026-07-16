@@ -440,7 +440,6 @@ Cons:
 
 ---
 
----
 
 # ⚙ Installation
 
