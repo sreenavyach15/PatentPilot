@@ -291,10 +291,14 @@ The overall patentability score is calculated using aggregated relevance and con
 
 - Supabase
 
-Used for:
+Supabase, powered by **PostgreSQL**, is used as the backend database for storing and managing:
 
 - Analysis history
-- Report persistence
+- Patentability reports
+- Compound metadata
+- Analysis timestamps
+
+It enables efficient storage, retrieval, filtering, and sorting of previous analyses.
 
 ---
 
