@@ -437,21 +437,6 @@ Cons:
 - Patent family clustering
 - Prior-art timeline visualization
 
----
-
-# 🔑 Environment Variables
-
-Create a `.env.local` file.
-
-```
-GROQ_API_KEY=your_groq_api_key
-
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-See `.env.example`.
 
 ---
 
@@ -468,6 +453,22 @@ schema.sql
 4. Copy the generated URL and anon key into:
 
 .env.local
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env.local` file.
+
+```
+GROQ_API_KEY=your_groq_api_key
+
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+See `.env.example`.
 
 ---
 
