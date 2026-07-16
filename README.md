@@ -93,7 +93,7 @@ Instead of merely displaying search results, PatentPilot intelligently ranks pat
 
 # 🔄 Project Workflow
 
-![alt text](<_- visual selection (2).png>)
+![alt text](<workflow.png>)
 
 ## Step 1 — User Input
 
