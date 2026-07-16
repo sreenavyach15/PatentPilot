@@ -356,7 +356,7 @@ export default function HistoryDetailsPage() {
                 </div>
 
                 <div>
-                  <h1 className="text-4xl font-bold tracking-tight text-slate-900">
+                  <h1 className="text-4xl font-bold tracking-tight text-slate-900 capitalize">
                     {analysis.compound_name}
                   </h1>
 
