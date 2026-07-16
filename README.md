@@ -508,10 +508,6 @@ npm start
 
 # 📸 Screenshots
 
-Add screenshots here.
-
-Suggested images:
-
 - Home Page
 - Compound Information
 - Related Patents
@@ -519,22 +515,34 @@ Suggested images:
 - Analysis History
 
 ![alt text](image.png)
+<p align="center">Home Page</p>
 
 ![alt text](image-1.png)
+<p align="center">Extracting info</p>
+
 
 ![alt text](image-2.png)
+<p align="center">Patent Analysis</p>
 
 ![alt text](image-3.png)
+<p align="center">Related Patents being displayed</p>
+
 
 ![alt text](image-4.png)
 
 ![alt text](image-5.png)
+<p align="center">Patentability Report</p>
+
 
 ![alt text](image-6.png)
 
 ![alt text](image-7.png)
+<p align="center">Analysis History</p>
+
 
 ![alt text](image-8.png)
+<p align="center">History of compound analysed previously</p>
+
 
 ---
 
