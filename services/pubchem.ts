@@ -57,6 +57,8 @@ export async function getCompound(smiles: string): Promise<Compound> {
       synonyms,
     };
   } catch {
-    throw new Error("Unable to retrieve compound information.");
+    throw new Error(
+      "Compound not found. The provided SMILES may be invalid or not recognized by PubChem. Please verify the SMILES string or obtain it from a trusted source such as PubChem or ChEBI."
+    );
   }
 }

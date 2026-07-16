@@ -526,7 +526,7 @@ export default function Home() {
                     <div className="flex items-center gap-2">
                       <span className="text-lg">📄</span>
                       <h2 className="text-xl font-bold text-slate-900">
-                        Related Patents
+                        Top 5 AI-Ranked Relevant Patents
                       </h2>
                     </div>
                     <span className="font-sans rounded-full bg-white border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-500">

@@ -8,32 +8,26 @@ export function generateKeywords(
 
   const keywords = new Set<string>();
 
-  // Always use the common compound name
-  if (compound.name) {
-    keywords.add(compound.name);
+  // Always use the primary compound name
+  if (compound.name?.trim()) {
+    keywords.add(compound.name.trim());
   }
 
-  // Add ONE useful synonym only if it looks like a proper chemical/drug name
-  const usefulSynonym = compound.synonyms.find(
-    (s) =>
-      /^[A-Za-z0-9\s-]{3,40}$/.test(s) &&
-      !/^\d/.test(s) &&
-      !s.includes("(") &&
-      !s.includes(")") &&
-      s.toLowerCase() !== compound.name.toLowerCase()
-  );
-
-  if (usefulSynonym) {
-    keywords.add(usefulSynonym);
-  }
-
+  // Add optional biological target
   if (target?.trim()) {
     keywords.add(target.trim());
   }
 
+  // Add optional disease
   if (disease?.trim()) {
     keywords.add(disease.trim());
   }
 
-  return [...keywords];
+  const result = [...keywords];
+
+  // Debug logging
+  console.log("Compound Name:", compound.name);
+  console.log("Search Keywords:", result);
+
+  return result;
 }

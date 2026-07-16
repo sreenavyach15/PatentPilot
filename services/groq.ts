@@ -141,7 +141,7 @@ ${disease || "Not Provided"}
 PATENTS
 ==================================================
 
-${patents.slice(0, 3).map((p, i) => `
+${patents.slice(0, 5).map((p, i) => `
 Patent ${i + 1}
 
 Patent Number:
@@ -258,7 +258,7 @@ Return NOTHING except the JSON array.
     throw new Error("Groq returned an invalid JSON response.");
   }
 
-  const analyzedPatents = patents.slice(0, 3);
+  const analyzedPatents = patents.slice(0, 5);
 
   return analyzedPatents.map((patent) => {
 
