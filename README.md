@@ -460,7 +460,7 @@ See `.env.example`.
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/patentpilot.git
+git clone https://github.com/sreenavyach15/PatentPilot.git
 ```
 
 Go into the project
