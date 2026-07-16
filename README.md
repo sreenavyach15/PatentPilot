@@ -440,36 +440,6 @@ Cons:
 
 ---
 
-## Database Setup
-
-1. Create a new Supabase project.
-
-2. Open the SQL Editor.
-
-3. Execute:
-
-schema.sql
-
-4. Copy the generated URL and anon key into:
-
-.env.local
-
----
-
-# 🔑 Environment Variables
-
-Create a `.env.local` file.
-
-```
-GROQ_API_KEY=your_groq_api_key
-
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-See `.env.example`.
-
 ---
 
 # ⚙ Installation
@@ -492,32 +462,79 @@ Install dependencies
 npm install
 ```
 
-Create
+---
 
+## Database Setup
+
+1. Create a new **Supabase** project.
+
+2. Open the **SQL Editor** from the left sidebar.
+
+3. Execute the SQL script located at:
+
+```text
+database/schema.sql
 ```
-.env.local
+
+This creates all the required tables, indexes, and relationships used by PatentPilot.
+
+4. Obtain your **Project URL**.
+
+- Go to the **Project Dashboard**.
+- Click **Copy** next to the Project URL (or **Get Connected → Project URL**).
+
+Example:
+
+```text
+https://your-project-id.supabase.co
 ```
 
-Add the required API keys.
+5. Obtain your **Anon Public Key**.
 
+- Go to **Project Settings** on left bar → **API Keys**.
+- Under **Legacy anon, service_role API keys**, copy the **anon public** key.
+
+Example:
+
+```text
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+6. Copy the generated URL and anon key into .env.local
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env.local` file in the project root.
+
+```env
+GROQ_API_KEY=your_groq_api_key
+
+NEXT_PUBLIC_SUPABASE_URL=https://your-project-id.supabase.co
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_public_key
+```
+
+See `.env.example` for the required variables.
 
 ---
 
 # ▶ Running the Project
 
-Development
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Open
+Open:
 
-```
+```text
 http://localhost:3000
 ```
 
-Production
+To build for production:
 
 ```bash
 npm run build
