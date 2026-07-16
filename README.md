@@ -514,40 +514,26 @@ npm start
 - Patentability Report
 - Analysis History
 
-![alt text](image.png)
 <p align="center">Home Page</p>
+![alt text](image.png)
 
-![alt text](image-1.png)
 <p align="center">Extracting info</p>
+![alt text](image-1.png)
 
-
+<p align="center">Compound Information</p>
 ![alt text](image-2.png)
-<p align="center">Patent Analysis</p>
 
+<p align="center">Related Patents</p>
 ![alt text](image-3.png)
-<p align="center">Related Patents being displayed</p>
-
-
 ![alt text](image-4.png)
 
-![alt text](image-5.png)
 <p align="center">Patentability Report</p>
-
-
+![alt text](image-5.png)
 ![alt text](image-6.png)
 
-![alt text](image-7.png)
 <p align="center">Analysis History</p>
+![alt text](image-7.png)
 
-
-![alt text](image-8.png)
 <p align="center">History of compound analysed previously</p>
+![alt text](image-8.png)
 
-
----
-
-# 📄 License
-
-This project is intended for educational and research purposes.
-
-PatentPilot does **not** replace professional patent searches or legal opinions. Final patentability decisions should always involve qualified patent professionals.
