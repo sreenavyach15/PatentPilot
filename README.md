@@ -512,33 +512,33 @@ npm start
 
 <p align="center">Home Page</p>
 
-![alt text](image.png)
+![alt text](homepage.png)
 
 <p align="center">Extracting info</p>
 
-![alt text](image-1.png)
+![alt text](info-extraction.png)
 
 <p align="center">Compound Information</p>
 
-![alt text](image-2.png)
+![alt text](compound-info.png)
 
 <p align="center">Related Patents</p>
 
-![alt text](image-3.png)
+![alt text](patent1.png)
 
-![alt text](image-4.png)
+![alt text](patent2.png)
 
 <p align="center">Patentability Report</p>
 
-![alt text](image-5.png)
+![alt text](report1.png)
 
-![alt text](image-6.png)
+![alt text](report2.png)
 
 <p align="center">Analysis History</p>
 
-![alt text](image-7.png)
+![alt text](analysis-history.png)
 
 <p align="center">History of compound analysed previously</p>
 
-![alt text](image-8.png)
+![alt text](analyzed-compound.png)
 
