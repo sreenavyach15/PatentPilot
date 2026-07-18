@@ -34,11 +34,11 @@ export async function generateReport(
   let recommendation = "Low Patent Risk";
   let overallRisk = "Low";
 
-  if (calculatedScore >= 90) {
+  if (calculatedScore >= 80) {
     recommendation = "High Patent Risk";
     overallRisk = "High";
   }
-  else if (calculatedScore >= 60) {
+  else if (calculatedScore >= 50) {
     recommendation = "Requires Expert Review";
     overallRisk = "Medium";
   }
